@@ -8,7 +8,7 @@ import * as d3 from "d3";
 })
 export class AppComponent {
 
-  title = 'app';
+  title = 'D3js with angular';
   @ViewChild('d3Container') nameInputRef: ElementRef;
   barChartData = [30, 86, 168, 250, 310, 368];
 
